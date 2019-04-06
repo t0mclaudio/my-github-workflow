@@ -11,4 +11,6 @@
 8. Merge to master branch
 9. Delete branch
 10. Close Issue
-11. Manually delete local branch ```git branch -D branch-name```
+11. In local repo checkout to master branch ```git checkout master```
+12. Manually delete local branch ```git branch -D branch-name```
+13. Delete reference to deleted remote origin/branch-name ```git fetch -p``` where -p means prune
