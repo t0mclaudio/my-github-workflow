@@ -2,7 +2,7 @@
 
 ## How I create changes
 1. Create issue in Github website
-2. Pull remote repo to local computer ``` git pull remote branchname ```
+2. Pull remote repo to local computer ``` git pull remote branchname ``` or ```git pull origin branchname```
 3. Create new branch in local repo ``` git checkout -b new-branch-name ```
 4. Make necessary changes to code
 5. Commit changes to ```new-branch-name ```
